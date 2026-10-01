@@ -1,6 +1,7 @@
 import type { CVLanguage } from "./store/cvStore";
 
 const englishStrings = {
+  appTitle: "Curriculum Vitae Builder",
   languageNames: {
     en: "English",
     de: "German",
@@ -183,6 +184,7 @@ type AppStrings = WidenStrings<typeof englishStrings>;
 export const appStrings: Record<CVLanguage, AppStrings> = {
   en: englishStrings,
   de: {
+    appTitle: "Curriculum Vitae Builder",
     languageNames: {
       en: "Englisch",
       de: "Deutsch",
@@ -353,6 +355,7 @@ export const appStrings: Record<CVLanguage, AppStrings> = {
     },
   },
   pl: {
+    appTitle: "Curriculum Vitae Builder",
     languageNames: {
       en: "Angielski",
       de: "Niemiecki",
@@ -524,6 +527,7 @@ export const appStrings: Record<CVLanguage, AppStrings> = {
     },
   },
   fr: {
+    appTitle: "Curriculum Vitae Builder",
     languageNames: {
       en: "Anglais",
       de: "Allemand",

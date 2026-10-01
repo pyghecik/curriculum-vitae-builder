@@ -357,7 +357,8 @@ function AllData() {
 
   useEffect(() => {
     document.documentElement.lang = resumeLanguage;
-  }, resumeLanguage);
+    document.title = text.appTitle;
+  }, [resumeLanguage, text.appTitle]);
 
   useEffect(() => {
     if (!cropImageUrl) return;
