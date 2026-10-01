@@ -1167,7 +1167,6 @@ function A4Page() {
   const [isExporting, setIsExporting] = useState(false);
   const handleExportPdf = useReactToPrint({
     contentRef: printRootRef,
-    documentTitle: appStrings[resumeLanguage].appTitle,
     onBeforePrint: async () => {
       setIsExporting(true);
     },
