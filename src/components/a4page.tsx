@@ -781,7 +781,7 @@ function Courses({
             </h3>
             {(entry.provider || entry.completionDate) && (
               <p
-                className={`text-[9px] ${dark ? "text-white/65" : "text-stone-500"}`}
+                className={`text-[9px] ${dark ? "text-[var(--cv-accent)]" : "text-[var(--cv-accent)]"}`}
               >
                 {[
                   entry.provider,
