@@ -14,4 +14,4 @@ In this tough times I wanted for people to have a decent free [Resume/CV Creator
 
 #
 
-Last update: 1.10.2026
+- Last update: 1.10.2026
