@@ -711,7 +711,7 @@ function AllData() {
   return (
     <>
       <div
-        className="fixed inset-y-0 left-0 z-40 w-[min(35vw,30rem)] text-stone-900 transition-transform duration-300 ease-in-out max-sm:w-[min(88vw,25rem)]"
+        className="fixed inset-y-0 left-0 z-40 flex w-[min(35vw,30rem)] max-sm:w-[min(88vw,25rem)] text-stone-900 transition-transform duration-300 ease-in-out"
         style={{
           transform: isEditorCollapsed
             ? "translateX(calc(-100% + 1.375rem))"
@@ -726,7 +726,8 @@ function AllData() {
           }
           aria-hidden={isEditorCollapsed}
           inert={isEditorCollapsed}
-          className="h-full overflow-y-auto [scrollbar-color:rgb(168_162_158)_transparent] scrollbar-thin [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-stone-400/70 [&::-webkit-scrollbar-thumb:hover]:bg-stone-500 [&::-webkit-scrollbar-track]:bg-transparent border-r border-stone-300 bg-stone-100 px-5 py-6 shadow-sm sm:px-6 sm:py-8"
+          /*Main Panel styles*/
+          className=" min-h-0 min-w-0 flex-1 overflow-y-auto overscroll-contain [scrollbar-gutter:stable] [scrollbar-color:rgb(168_162_158)_transparent] scrollbar-thin [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-stone-400/70 [&::-webkit-scrollbar-thumb:hover]:bg-stone-500 [&::-webkit-scrollbar-track]:bg-transparent border-r border-stone-300 bg-stone-100 px-5 py-6 shadow-sm sm:px-6 sm:py-8"
         >
           <header className="mb-7 border-b border-stone-300 pb-5">
             <div className="mb-2 flex flex-nowrap items-center justify-between gap-1">
@@ -1272,7 +1273,6 @@ function AllData() {
                     placeholder={copy.summaryPlaceholder}
                   />
                 </details>
-
                 <details
                   className="space-y-4 border-t border-stone-200 pt-6"
                   aria-labelledby="experience-heading"
@@ -1398,7 +1398,6 @@ function AllData() {
                     {copy.addWorkExperience}
                   </button>
                 </details>
-
                 <details
                   className="space-y-4 border-t border-stone-200 pt-6"
                   aria-labelledby="education-heading"
@@ -1517,7 +1516,6 @@ function AllData() {
                     {copy.addEducation}
                   </button>
                 </details>
-
                 <details
                   className="space-y-4 border-t border-stone-200 pt-6"
                   aria-labelledby="skills-heading"
@@ -1539,7 +1537,6 @@ function AllData() {
                     placeholder={copy.skillsPlaceholder}
                   />
                 </details>
-
                 <details
                   className="space-y-4 border-t border-stone-200 pt-6"
                   aria-labelledby="languages-heading"
@@ -1590,7 +1587,7 @@ function AllData() {
                     {copy.addLanguage}
                   </button>
                 </details>
-
+                {/*Projects*/}
                 <details
                   className="space-y-4 border-t border-stone-200 pt-6"
                   aria-labelledby="projects-heading"
@@ -1689,9 +1686,9 @@ function AllData() {
                     {copy.addProject}
                   </button>
                 </details>
-
+                {/*Courses*/}
                 <details
-                  className="space-y-4 border-t border-stone-200 pt-6"
+                  className="space-y-4 border-t border-stone-200 pt-6 "
                   aria-labelledby="courses-heading"
                 >
                   <summary className="cursor-pointer">
@@ -1774,7 +1771,6 @@ function AllData() {
                     {copy.addCourse}
                   </button>
                 </details>
-
                 <details
                   className="space-y-4 border-t border-stone-200 pt-6"
                   aria-labelledby="interests-heading"
@@ -1796,7 +1792,6 @@ function AllData() {
                     placeholder={copy.interestsPlaceholder}
                   />
                 </details>
-
                 <details
                   className="space-y-4 border-t border-stone-200 pt-6"
                   aria-labelledby="consent-heading"
@@ -1821,7 +1816,6 @@ function AllData() {
                     placeholder={copy.consentPlaceholder}
                   />
                 </details>
-
                 <footer className="flex justify-end border-t border-stone-300 pt-5">
                   <button
                     type="button"
