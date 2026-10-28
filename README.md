@@ -21,7 +21,7 @@ AI-generated suggestions were reviewed, and manual fixes were made where necessa
 Technology choices were based on my existing knowledge, project requirements, and discussions with Claude.
 
 ## | 📌 Planned future updates:
-- none
+- No specific updates planned at the moment.
 
 ## | 🎯 Project Purpose
 
