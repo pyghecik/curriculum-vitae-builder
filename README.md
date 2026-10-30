@@ -13,8 +13,8 @@ A free web-based CV builder that allows users to customize the appearance of the
 
 AI tools were used to support the development process:
 
-- **GitHub Copilot** — Assisted with code implementation directly in VS Code.
-- **Claude** — Helped evaluate technology choices and identify an appropriate tech stack for the project.
+- **GitHub Copilot** - Assisted with code implementation directly in VS Code.
+- **Claude** - Helped evaluate technology choices and identify an appropriate tech stack for the project.
 
 AI-generated suggestions were reviewed, and manual fixes were made where necessary.
 
